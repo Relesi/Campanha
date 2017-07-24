@@ -31,7 +31,7 @@ public class Torcedor {
 	private String nome;
 
 	@NotNull
-	private Double preco;
+	private String email;
 
 	@NotNull
 	@Enumerated(EnumType.STRING)
@@ -62,12 +62,12 @@ public class Torcedor {
 		this.nome = nome;
 	}
 
-	public Double getPreco() {
-		return preco;
+	public String getPreco() {
+		return email;
 	}
 
-	public void setPreco(Double preco) {
-		this.preco = preco;
+	public void setPreco(String email) {
+		this.email = email;
 	}
 
 	public CategoriaDeTorcedor getCategoria() {
